@@ -1,0 +1,194 @@
+* { box-sizing: border-box;}
+
+body {
+background-color:#EAEAEA;
+color:#555555;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+background-color:#90C7E3;
+min-width:960px;
+max-width:2048px;
+background-image: linear-gradient(to bottom, white, darkred);
+}
+
+header {
+background-color:darkred;
+color:#FFFFFF;
+height: 120px;
+text-align: center;
+padding-top: 30px;
+padding-left: 3em;
+}
+
+h1{
+margin-bottom: 0;
+font-family: Georgia, "Times New Roman", serif;
+margin-top: 0;
+font-size: 3em;
+letter-spacing: 0.25em;
+float: left;
+}
+
+nav {
+font-weight: bold;
+padding: 1.5em;
+font-size: 120%;
+float: left;
+width: 160px;
+}
+
+a{ text-decoration: none;}
+
+main{
+background-color: #FFFFFF;
+margin-left: 190px;
+padding: 1px 20px 20px 30px;
+display: block;
+overflow: auto;
+border: solid;
+border-color: maroon;
+}
+
+h2 {
+color:maroon;
+font-family: Georgia, "Times New Roman", serif;
+text-shadow: 1px 1px #CCCCCC;
+}
+
+h3{
+font-family: Georgia, "Times New Roman", serif;
+color: #000033;
+}
+
+main ul{
+list-style-image: url("marker.gif");
+}
+
+dt {
+color:#002171;
+}
+
+footer{
+font-size: 75%;
+font-style: italic;
+text-align: center;
+font-family: Georgia, "Times New Roman", serif;
+padding: 2em;
+margin-left: 190px;
+background-color: linear-gradient(to bottom, white, darkred);
+}
+
+
+ul{
+list-style: none;
+margin: 0px 0px 0px 0px;
+padding-left: 0em;
+font-size: 1.2em;
+}
+
+
+nav a:link {
+color: darkred;
+}
+
+nav a:visited {
+color: red;
+}
+
+nav a:hover {
+color: #A52A2A;
+}
+
+header a{
+text-decoration: none;
+}
+
+header a:link {
+color: #FFFFFF;
+}
+
+header a:visited {
+color: #FFFFFF;
+}
+
+header a:hover {
+color: #90C7E3;
+}
+
+section{
+float: left;
+width: 33%;
+padding: 0em 2em 0em 2em;
+}
+
+h4{
+	color: white;
+}
+
+img{
+	width: 8%;
+	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+table, th, td {
+  border: 1px solid black;
+  color: maroon;
+}
+
+td{
+	color: black;
+}
+
+table {
+	width: 100%;
+}
+
+footer a{
+	color: white;
+}
+
+.retail{
+color:maroon;
+font-weight: bold;
+}
+
+.footer-info{
+	color: lightgrey;
+	text-align: left;
+}
+
+.footer-info-2{
+	color: lightgrey;
+}
+
+#header-right{
+	float: right;
+	width: 30%;
+	text-align: right;
+	margin-right: 2%;
+}
+
+#contact{
+font-size:90%;
+}
+
+#homehero{
+height:500px;
+background-image: url("oldmain.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+margin-left: 190px;
+}
+
+#infohero{
+height:500px;
+background-image: url("storefront.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+margin-left: 190px;
+}
+

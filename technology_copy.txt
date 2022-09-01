@@ -1,0 +1,120 @@
+<!--Justin Taylor-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="wildcat.css">
+<title>Wildcat Retail</title>
+<meta charset="utf-8">
+</head>
+<body id="wrapper">
+<header>
+	<h1><a href="index.html">Wildcat Retail</a></h1>
+	<div id="header-right">
+		<a href="account.html">
+			Account <img src="user.png">
+		</a>
+		<br>
+		<a class="vertical-align" href="shoppingcart.html">
+			Shopping Cart<img src="shopping.png"> 
+		</a>
+	</div>
+</header>
+<nav> 
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="clothing.html">Clothing</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="gifts.html">Gifts</a></li>
+        <li><a href="supplies.html">Supplies</a></li>
+        <li><a href="technology">Technology</a></li>
+        <li><a href="information.html">Information</a></li>
+    </ul>
+</nav>
+<main>
+    <h2>Technology</h2>
+    <p><span class="retail">Wildcat Retail</span> offers a wide variety of electronic devices and appliances for our customers which include, but are not limited to tablets, laptops and phone cases.</p>
+    <table>
+    	<tr>
+    		<th>Item</th>
+    		<th>Category</th>
+    		<th>Price</th>
+    	</tr>
+    	<tr>
+    		<td>
+		<img src="wr_laptop.jpg">
+		<a href="laptop.html">WR Essential 2.0 - 2022</a>
+		</td>
+    		<td>Laptop</td>
+    		<td>$775.00</td>
+    	</tr>
+    	<tr>
+    		<td>
+		<img src="wr_tablet.jpg">
+		<a href="tablet.html">WR Essential Tablet 11"</a>
+		</td>
+    		<td>Tablet</td>
+    		<td>$450.00</td>
+    	</tr>
+    	<tr>
+    		<td>
+		<img src="wr_case.jpg">
+		<a href="case.html">WR Magic Phone Case</a>
+		</td>
+    		<td>Accessory</td>
+    		<td>$45.00</td>
+    	</tr>
+	<tr>
+    		<td>
+		<img src="wr_cable.jpg">
+		<a href="cable.html">WR 1M Lightning Cable for iPhone</a>
+		</td>
+    		<td>Accessory</td>
+    		<td>$14.99</td>
+    	</tr>
+	<tr>
+    		<td>
+		<img src="wr_adaptor.jpg">
+		<a href="adaptor.html">WR USB Power Adaptor</a>
+		</td>
+    		<td>Accessory</td>
+    		<td>$18.99</td>
+    	</tr>
+    </table>
+</main>
+<footer>
+	<div>
+		<section class="footer-info">
+		<h4>Company info</h4><hr>
+			<ul>
+				<li>Contact Us At: 880-225-3435</li>
+				<li>Location: 1220 E Wildcat Rd. Tucson, AZ 85719</li>
+				<li><a href="careers.html">Careers</a></li>
+			</ul>
+		</section>
+		<section class="footer-info">
+		<h4>Connect</h4><hr>
+			<ul>
+				<li>Facebook</li>
+				<li>Twitter</li>
+				<li>Instagram</li>
+				<li>TikTok</li>
+			</ul>
+		</section>
+		<section class="footer-info">
+		<h4>Rescources</h4><hr>
+			<ul>
+				<li>Shipping</li>
+				<li>Returns</li>
+				<li>Privacy</li>
+				<li>Terms of Use</li>
+			</ul>
+		</section>
+	</div>
+	
+	<div class="footer-info-2">
+		Copyright &copy; 2022 Wildcat Retail
+	</div>
+
+</footer>
+</body>
+</html>
